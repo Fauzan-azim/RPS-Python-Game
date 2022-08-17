@@ -16,9 +16,8 @@ Dataset can be trained by ourself
 $ pip install -r requirements.txt
 ```
 2. Gather Images for each shape (rock, paper and scissors and None):
-  for testing there are 100 images already gathered 
 ```sh
-$ python3 gather_images.py rock 200
+$ python3 gather_images.py <shape> <number>
 ```
 3. Train the model
 ```sh
